@@ -4,8 +4,7 @@
 		<nav>
 			<ul class = "nav navbar-nav navbar-right">
 				<li><%= link_to "Home", root_path %></li>
-				<li><%= link_to "Help", 'static_pages/help' %></li>
-				/static_pages/help
+				<li><%= link_to "Help", static_pages_help_path %></li>
 				<li><%= link_to "About", static_pages_about_path %> </li>
 
 				<% if logged_in? %>

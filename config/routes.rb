@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+  get 'saml/init'
+
+  get 'saml/consume'
+
   root 'static_pages#home'
-  get 'static_pages/home'
+  # get 'static_pages/home'
 
   get 'static_pages/about'
 
